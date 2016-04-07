@@ -6,6 +6,4 @@
 /efs			ext4		/dev/block/mmcblk0p7
 /boot			emmc		/dev/block/mmcblk0p11
 /recovery		emmc		/dev/block/mmcblk0p12
-/modem			emmc		/dev/block/mmcblk0p13
-/modem2			emmc		/dev/block/mmcblk0p14
-/sdcard			vfat		/dev/block/platform/sprd-sdhci.0/mmcblk1p1
+/external_sd            vfat 	        /dev/block/platform/sprd-sdhci.0/mmcblk1p1 /dev/block/platform/sprd-sdhci.0/mmcblk1 
